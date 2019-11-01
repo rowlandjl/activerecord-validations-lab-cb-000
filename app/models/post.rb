@@ -10,4 +10,6 @@ class Post < ActiveRecord::Base
     /Top [0-9]*/i,
     /Guess/i 
     ]
+    
+    def is_clickbait?
 end
